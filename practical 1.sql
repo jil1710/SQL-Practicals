@@ -23,7 +23,7 @@ END
 GO
 -- ADD NEW COLUMN TO EXISTING TABLE PRODUCT
 ALTER TABLE product ADD Description VARCHAR(MAX) NOT NULL
-
+GO
 INSERT INTO product VALUES('IPhone','Electronic', 150000, 'IPhone 14 Pro Max');
 INSERT INTO product VALUES('HP','Electronic', 75000, 'Pavilion Series');
 INSERT INTO product VALUES('Canon','Electronic', 400000, 'Canon R');
